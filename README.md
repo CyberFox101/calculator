@@ -10,9 +10,10 @@ A calculator deveoped with Python3 used from the terminal (CLI), built within SC
 5. Display the result
 
 #How it can be run
-Run: python3 calculator.py
+Run: ./run.sh
 
-
+#How to stop
+Stop: Ctrl + C
 
 Enter a first number, then operator (+, -, /, *), and then the second number
 The program will print Total: followed by the result
