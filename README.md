@@ -12,6 +12,9 @@ A calculator deveoped with Python3 used from the terminal (CLI), built within SC
 #How it can be run
 Run: ./run.sh
 
+#How to test (automated)
+Run: ./check.sh (python3 pytest install it)
+
 #How to stop
 Stop: Ctrl + C
 
