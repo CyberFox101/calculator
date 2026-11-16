@@ -1,4 +1,4 @@
-from calculator import add, subtract, multiply, divide
+from calculator import add, subtract, multiply, divide, CircleArea
 import pytest
 
 @pytest.mark.parametrize("a, b, expected", [
@@ -32,4 +32,7 @@ def test_multiply_uneven():
 
 	#Assert
 	assert result == 0
+
+def test_circleArea():
+	assert CircleArea(-4) == "Error"
 
