@@ -6,7 +6,7 @@ def subtract(a, b):
 	return a -  b
 
 def multiply(a, b):
-	return a + b # Deliberilty wrong for test github purposes...
+	return a * b
 
 def divide(a, b):
 	return a / b
