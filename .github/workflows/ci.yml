@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - coursework
   pull_request:
 
 permissions:
