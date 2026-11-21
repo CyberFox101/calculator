@@ -1,0 +1,15 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.1.1, pluggy-1.6.0 -- /opt/python-venv/sccm-4910/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/foxdt/h-drive/University_Year_1/DevOps_Labs/calculator
+collecting ... collected 10 items / 1 error
+
+==================================== ERRORS ====================================
+__________________ ERROR collecting test_batch_calculator.py ___________________
+test_batch_calculator.py:20: in <module>
+    raise NotImplementedError("Complete process_calculation for the coursework")
+E   NotImplementedError: Complete process_calculation for the coursework
+=========================== short test summary info ============================
+ERROR test_batch_calculator.py - NotImplementedError: Complete process_calcul...
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.22s ===============================
